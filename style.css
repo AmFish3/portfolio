@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&family=Source+Code+Pro:wght@200&display=swap');
+
+
+body{
+    background-size: 40px 40px;
+    background-image:
+      linear-gradient(to right, rgb(57, 70, 59) 4px, transparent 4px),
+      linear-gradient(to bottom, rgb(57, 70, 59) 4px, transparent 4px);
+    
+    background-color: #536353;
+    color: white;
+    text-align: center;
+
+
+    
+    
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Source Code Pro', monospace;
+    text-align: center;
+
+    animation: fadeInAnimation ease 3s;
+    animation-fill-mode: forwards;
+}
+
+.intro{
+    bottom: 50%;
+    text-align: center;
+    
+}
+.img1{
+    transform: rotate(10deg);
+}
+img{
+    
+}
+.h1{
+    font-size: 120%;
+}
+
+.trueboi{
+    width: 100%;
+	word-break: break-word;
+	
+	font-weight: bold;
+}
+
+.button{
+    background-color: #3b4b3b;
+    border: 10px;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+.button1{
+    background-color: #3b4b3b;
+    border: 10px;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+.button:hover {background-color: #2c382c;}
+.button:active {background-color: #3e4e3e;}
+#aboutme,
+#myprojects,
+#socials,
+#opinions{
+opacity: 0;
+font-size: 20px;
+display: none;
+}
+#aboutme.active,
+#myprojects.active,
+#socials.active,
+#opinions.active{
+    opacity: 1;
+font-weight:bold;
+display: block;
+word-break: break-word;
+}
+hr{
+    width:50%;
+    margin: 0 auto;
+}
+@keyframes fadeInAnimation {
+    0%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+    }
+}html {
+  height: 100%;
+  width: 100%;
+}
+.p1{
+    font-weight: 50;
+}
